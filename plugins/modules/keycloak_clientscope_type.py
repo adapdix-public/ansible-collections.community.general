@@ -127,7 +127,7 @@ end_state:
 
 from ansible.module_utils.basic import AnsibleModule
 
-from ansible_collections.community.general.plugins.module_utils.identity.keycloak.keycloak import (
+from ansible.module_utils.keycloak import (
     KeycloakAPI, KeycloakError, get_token)
 
 from ansible_collections.community.general.plugins.module_utils.identity.keycloak.keycloak import \
