@@ -349,7 +349,7 @@ changed:
   returned: always
   type: bool
 '''
-from ansible_collections.community.general.plugins.module_utils.identity.keycloak.keycloak import KeycloakAPI, camel, \
+from ansible.module_utils.keycloak import KeycloakAPI, camel, \
     keycloak_argument_spec, get_token, KeycloakError, is_struct_included
 from ansible.module_utils.basic import AnsibleModule
 import copy
